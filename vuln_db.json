@@ -1,0 +1,14 @@
+{
+  "werkzeug": {
+    "3.1.3": "CVE-2023-30861: Debug console exposure in production"
+  },
+  "apache": {
+    "2.4.49": "CVE-2021-41773: Path traversal vulnerability"
+  },
+  "vsftpd": {
+    "2.3.4": "Backdoor vulnerability that allows remote shell"
+  },
+  "mysql": {
+    "5.7.29": "CVE-2020-2574: Auth bypass via specially crafted requests"
+  }
+}
