@@ -82,7 +82,7 @@ def scan_ports(target, port_range, use_online=False):
                         "cve": cve
                     })
                     if cve:
-                        print(f"  {Fore.RED}🚨 Possible Vulnerability:{Style.RESET_ALL} {cve}")
+                        print(f"  {Fore.RED} Possible Vulnerability:{Style.RESET_ALL} {cve}")
                     else:
                         print(f"  {Fore.CYAN}No known CVEs found for {service} {version}{Style.RESET_ALL}")
                 else:
